@@ -12,7 +12,7 @@ public class InputManager : MonoBehaviour
     {
         _playerInput = GetComponent<PlayerInput>();
 
-        _moveAction = _playerInput.actions["Move"];
+        _moveAction = _playerInput.actions["Movement"];
     }
 
     private void Update()
