@@ -4,7 +4,7 @@ using UnityEngine;
 public class PlayerSanity : MonoBehaviour
 {
     public float sanity = 100f;
-    public float sanityRange = 1f;
+    public float sanityRange;
     public float range = 5f;
 
     // Assign this in the Inspector
