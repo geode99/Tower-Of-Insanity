@@ -96,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -335,7 +335,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Wooden Floor_0: 7698631359454844503
+      Wooden Floor_1: 6614025040675920614
+      Wooden Floor_2: 920560764343538998
+      Wooden Floor_3: -8097571248867330601
+      Wooden Floor_4: -6146865109181100461
+      Wooden Floor_5: 6594736493226894680
+      Wooden Floor_6: -4220684056797596234
+      Wooden Floor_7: 7502806851498529522
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
