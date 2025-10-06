@@ -5,24 +5,22 @@ public class PlayerSanity : MonoBehaviour
 {
     public float sanity = 100f;
     public float sanityRange;
-    public float range = 5f;
+    public float range = 1f;
 
     // Assign this in the Inspector
     public GameObject sanitySphereObject;
-
     private SanitySphere sphere;
 
-    void Start()
-    {
+    void Start(){
          sphere = sanitySphereObject.GetComponent<SanitySphere>();
     }
 
-    void Update()
-    {
-        sanity -= 0.08f * Time.deltaTime;
+    void Update(){
+        if(sanity > 0){
+            sanity -= 0.1f * Time.deltaTime;
+        }
         sanityRange = sanity * range;
-        if (sphere != null)
-        {
+        if(sphere != null){
             sphere.SetSphereScale(sanityRange);
         }
     }

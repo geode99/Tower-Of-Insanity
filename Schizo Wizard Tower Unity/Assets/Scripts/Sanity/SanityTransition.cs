@@ -1,8 +1,7 @@
 using UnityEngine;
 
-public class InsanityTransition : MonoBehaviour
+public class SanityTransition : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start(){
         
     }
@@ -13,9 +12,12 @@ public class InsanityTransition : MonoBehaviour
     }
 
     // Disable this GameObject when it hits a trigger collider from "Sanity Sphere"
-    private void OnTriggerEnter(Collider other){
+    private void OnTriggerEnter2D(Collider2D other){
         if (other.gameObject.tag == "SanitySphere"){
-            gameObject.SetActive(false);
+            gameObject.SetActive(true);
         }
+    }
+    private void OnTriggerExit2D(Collider2D other){
+            gameObject.SetActive(false);
     }
 }
