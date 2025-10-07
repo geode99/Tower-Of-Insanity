@@ -185,9 +185,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
+<<<<<<< HEAD
     nameFileIdTable:
       Door Cut In Half_0: 3605395052900443849
       Door Cut In Half_1: 8419651454700517582
+=======
+    nameFileIdTable: {}
+>>>>>>> 5cd585e36062540fee56ee8209fe6f02a92de0bd
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
