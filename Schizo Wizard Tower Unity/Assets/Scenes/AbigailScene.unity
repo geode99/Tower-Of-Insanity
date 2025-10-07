@@ -300,10 +300,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71390c70263ee684c890f95e7db78323, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventoryPanel: {fileID: 1510365317}
-  slotPrefab: {fileID: 8578269192158979322, guid: c42abd50bfa2ae14eb4c148449da4a4b, type: 3}
-  slotCount: 8
-  itemPrefabs: []
 --- !u!4 &384063355
 Transform:
   m_ObjectHideFlags: 0
@@ -329,6 +325,7 @@ GameObject:
   m_Component:
   - component: {fileID: 413809579}
   - component: {fileID: 413809580}
+  - component: {fileID: 413809581}
   m_Layer: 0
   m_Name: RedDoor
   m_TagString: Untagged
@@ -400,6 +397,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 3.8739486, y: 3.0452642}
   m_EdgeRadius: 0
+--- !u!114 &413809581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413809578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5452c92f5c1fee468368ef2c3ec2e3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keyType: 0
 --- !u!1 &454207893
 GameObject:
   m_ObjectHideFlags: 0
@@ -1783,27 +1793,13 @@ GameObject:
   - component: {fileID: 1789808240}
   - component: {fileID: 1789808239}
   - component: {fileID: 1789808238}
-  - component: {fileID: 1789808237}
   m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1789808237
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1789808236}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2549d8af3f4846c40b25ce3d6555b602, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  menuCanvas: {fileID: 322291684}
+  m_IsActive: 0
 --- !u!114 &1789808238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2149,12 +2145,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 893709d0bff582943b6ec7acc2b39645, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tabImages:
-  - {fileID: 1941444611}
-  - {fileID: 454207896}
-  pages:
-  - {fileID: 1510365317}
-  - {fileID: 34394582}
 --- !u!1 &1941444610
 GameObject:
   m_ObjectHideFlags: 0
