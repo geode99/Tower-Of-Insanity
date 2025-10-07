@@ -36,5 +36,16 @@ public class KeyHolder : MonoBehaviour
             AddKey(key.GetKeyType());
             Destroy(key.gameObject);
         }
+
+        KeyDoor keyDoor = collider.GetComponent<KeyDoor>();
+        if (keyDoor != null)
+        {
+           if (ContainsKey(keyDoor.GetKeyType()))
+           {
+                //Currently holding Key to open this door
+                RemoveKey(keyDoor.GetKeyType());
+                keyDoor.OpenDoor();
+           }
+        }
     }
 }
