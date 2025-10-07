@@ -300,6 +300,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71390c70263ee684c890f95e7db78323, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inventoryPanel: {fileID: 0}
+  slotPrefab: {fileID: 0}
+  slotCount: 0
+  itemPrefabs: []
 --- !u!4 &384063355
 Transform:
   m_ObjectHideFlags: 0
@@ -828,6 +832,7 @@ GameObject:
   - component: {fileID: 794410583}
   - component: {fileID: 794410582}
   - component: {fileID: 794410581}
+  - component: {fileID: 794410584}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -896,6 +901,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &794410584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794410580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2549d8af3f4846c40b25ce3d6555b602, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuCanvas: {fileID: 322291684}
 --- !u!1 &925890208
 GameObject:
   m_ObjectHideFlags: 0
@@ -1793,13 +1811,14 @@ GameObject:
   - component: {fileID: 1789808240}
   - component: {fileID: 1789808239}
   - component: {fileID: 1789808238}
+  - component: {fileID: 1789808242}
   m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1789808238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1883,6 +1902,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1789808242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789808236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71390c70263ee684c890f95e7db78323, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventoryPanel: {fileID: 1510365317}
+  slotPrefab: {fileID: 8578269192158979322, guid: c42abd50bfa2ae14eb4c148449da4a4b, type: 3}
+  slotCount: 8
+  itemPrefabs: []
 --- !u!1 &1849628612
 GameObject:
   m_ObjectHideFlags: 0
@@ -2145,6 +2180,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 893709d0bff582943b6ec7acc2b39645, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tabImages: []
+  pages: []
 --- !u!1 &1941444610
 GameObject:
   m_ObjectHideFlags: 0
