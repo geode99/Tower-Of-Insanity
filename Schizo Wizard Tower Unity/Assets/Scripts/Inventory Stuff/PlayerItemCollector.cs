@@ -1,26 +1,49 @@
+using System;
 using UnityEngine;
 
 public class PlayerItemCollector : MonoBehaviour
 {
     private InventoryController inventoryController;
+    private Collider2D currentCollision;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        inventoryController = FindObjectOfType<InventoryController>();
+        inventoryController = FindFirstObjectByType<InventoryController>();
+    }
+    private void Update()
+    {
+        if (currentCollision != null && Input.GetKeyDown(KeyCode.E))
+        {
+            print("Pressed E to collect the item");
+
+            if (currentCollision.TryGetComponent(out Item item))
+            {
+                bool itemAdded = inventoryController.AddItem(currentCollision.gameObject);
+                if (itemAdded)
+                {
+                    Destroy(currentCollision.gameObject);
+                }
+            }
+        }
     }
 
-   private void OnTriggerEnter2D(Collider2D collision)
+  
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Item"))
         {
-            Item item = collision.GetComponent<Item>();
-            if (item != null)
+            currentCollision = collision;
+            Debug.Log("Player entered the item trigger area. Press 'E' to collect the item.");
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Item"))
+        {
+            if (currentCollision == collision)
             {
-               bool itemAdded = inventoryController.AddItem(collision.gameObject);
-                if (itemAdded)
-                {
-                     Destroy(collision.gameObject);
-                }
+                currentCollision = null;
+                Debug.Log("Player exited the item trigger area.");
             }
         }
     }

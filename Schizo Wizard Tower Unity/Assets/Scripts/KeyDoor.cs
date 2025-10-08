@@ -2,15 +2,15 @@ using UnityEngine;
 
 public class KeyDoor : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] private Key.KeyType keyType;
+
+    public Key.KeyType GetKeyType()
     {
-        
+        return keyType;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OpenDoor()
     {
-        
+        gameObject.SetActive(false);
     }
 }
