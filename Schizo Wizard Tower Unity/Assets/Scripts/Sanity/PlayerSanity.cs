@@ -7,8 +7,10 @@ public class PlayerSanity : MonoBehaviour
     public float sanityRange;
     public float range = 1f;
 
+
     // Assign this in the Inspector
     public GameObject sanitySphereObject;
+    public GameObject sanityBar;
     private SanitySphere sphere;
 
     void Start(){
@@ -19,9 +21,8 @@ public class PlayerSanity : MonoBehaviour
         if(sanity > 0){
             sanity -= 0.1f * Time.deltaTime;
         }
+        sanityBar.transform.localScale = new Vector3(sanity, 4f, 1f);
         sanityRange = sanity * range;
-        if(sphere != null){
-            sphere.SetSphereScale(sanityRange);
-        }
+        sphere.SetSphereScale(sanityRange);
     }
 }
