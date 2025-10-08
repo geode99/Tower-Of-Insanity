@@ -1,5 +1,49 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1900713921072107842
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7287971897166742552}
+  - component: {fileID: 2364921455319107665}
+  m_Layer: 0
+  m_Name: Sanity Sphere
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7287971897166742552
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900713921072107842}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2339340197859697618}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2364921455319107665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900713921072107842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b1c57fea15c2714dbf1bde551eae04b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7117763512815484750
 GameObject:
   m_ObjectHideFlags: 0
@@ -16,6 +60,7 @@ GameObject:
   - component: {fileID: 3663640058395361329}
   - component: {fileID: 3568966609808314875}
   - component: {fileID: 8964675393251239665}
+  - component: {fileID: 9094965447539718909}
   m_Layer: 0
   m_Name: 'Schizo Wizard '
   m_TagString: Player
@@ -31,12 +76,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7117763512815484750}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.09, y: 3.18, z: 0}
   m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7314276929963073842}
+  - {fileID: 7287971897166742552}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2857317228309922132
@@ -224,6 +270,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8629e88d81e46e14c9fd1527addaf3f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &9094965447539718909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7117763512815484750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6be541a34f3c95c4e940a1016b3ec4a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sanity: 30
+  sanityRange: 0
+  range: 0.5
+  sanitySphereObject: {fileID: 1900713921072107842}
 --- !u!1 &8702953533394409930
 GameObject:
   m_ObjectHideFlags: 0
