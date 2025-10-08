@@ -130,7 +130,6 @@ GameObject:
   - component: {fileID: 262761957}
   - component: {fileID: 262761956}
   - component: {fileID: 262761958}
-  - component: {fileID: 262761959}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -254,19 +253,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &262761959
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 262761955}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38a3aa4fa7141db44a9ee7fff276b0c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  disappear: {fileID: 0}
 --- !u!1 &641123823
 GameObject:
   m_ObjectHideFlags: 0
@@ -642,6 +628,14 @@ PrefabInstance:
     - target: {fileID: 3295924903906165573, guid: 02e4f41c7b4b97e45a3544c4b0b8d48a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4506940353532648067, guid: 02e4f41c7b4b97e45a3544c4b0b8d48a, type: 3}
+      propertyPath: range
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4506940353532648067, guid: 02e4f41c7b4b97e45a3544c4b0b8d48a, type: 3}
+      propertyPath: sanity
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 7705751642830026423, guid: 02e4f41c7b4b97e45a3544c4b0b8d48a, type: 3}
       propertyPath: m_Name
