@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7287971897166742552}
   - component: {fileID: 2364921455319107665}
+  - component: {fileID: 5954899360567090824}
   m_Layer: 0
   m_Name: Sanity Sphere
-  m_TagString: Untagged
+  m_TagString: SanitySphere
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44,6 +45,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b1c57fea15c2714dbf1bde551eae04b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &5954899360567090824
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900713921072107842}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 1
 --- !u!1 &7117763512815484750
 GameObject:
   m_ObjectHideFlags: 0
