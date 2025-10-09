@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 16b39eaee53b72a4bb0b36f8e45a58b6
+guid: cf80e44158bd5dd46baf9ff1c76bdb46
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1288107585767180958
-    second: Stone Wall Tileset_0
+      213: 4149148214165556241
+    second: wizard (1)_0
+  - first:
+      213: 7957302283024969769
+    second: wizard (1)_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,7 +78,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,23 +129,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Stone Wall Tileset_0
+      name: wizard (1)_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 63
-        width: 64
-        height: 65
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 16}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e9a832a460740e110800000000000000
-      internalID: 1288107585767180958
+      spriteID: 11cc8c1515cb49930800000000000000
+      internalID: 4149148214165556241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wizard (1)_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 920bb1e44440e6e60800000000000000
+      internalID: 7957302283024969769
       vertices: []
       indices: 
       edges: []
@@ -151,7 +176,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9f86707d75112474688d48d09e6e86c2
+    spriteID: df14ecc52527a0a4d9ac433e329f0bdb
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +186,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Stone Wall Tileset_0: 1288107585767180958
+      wizard (1)_0: 4149148214165556241
+      wizard (1)_1: 7957302283024969769
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

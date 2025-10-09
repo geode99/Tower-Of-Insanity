@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9d193f90bd7093c498686a21140f56ea
+guid: 4101383c41e6bfd46b82e9fa493b5df4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8856475441347302244
-    second: wizard3_0
+      213: 1094393234852128250
+    second: pill_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wizard3_0
+      name: pill_0
       rect:
         serializedVersion: 2
-        x: 174
-        y: 0
-        width: 502
-        height: 800
+        x: 5
+        y: 8
+        width: 15
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4631a738d7588ea70800000000000000
-      internalID: 8856475441347302244
+      spriteID: af5a3f749d0103f00800000000000000
+      internalID: 1094393234852128250
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      wizard3_0: 8856475441347302244
+      pill_0: 1094393234852128250
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
