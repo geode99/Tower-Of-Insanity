@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: fe36b6760fca3aa449a1ae5b35935c69
+guid: 9d193f90bd7093c498686a21140f56ea
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3422849895820167655
-    second: wizard_0
+      213: 8856475441347302244
+    second: wizard3_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,23 +126,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wizard_0
+      name: wizard 3_0
       rect:
         serializedVersion: 2
-        x: 124
-        y: 24
-        width: 502
-        height: 776
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7e908df58d7608f20800000000000000
-      internalID: 3422849895820167655
+      spriteID: 710f20b26a0837145976e7a9e13dba47
+      internalID: -115307374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wizard 3_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e529172591ef2940a5323b4d2d9340b
+      internalID: -1680859032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wizard 3_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca59c85fa3ae88c40b251e1cb1d02b0e
+      internalID: -150862723
       vertices: []
       indices: 
       edges: []
@@ -151,7 +195,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8de2a267e9783ee4891c5e2979af415a
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +205,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      wizard_0: 3422849895820167655
+      wizard 3_0: -115307374
+      wizard 3_1: -1680859032
+      wizard 3_2: -150862723
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
