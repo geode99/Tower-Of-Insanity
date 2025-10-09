@@ -21,7 +21,7 @@ public class PlayerSanity : MonoBehaviour
         if(sanity > 0){
             sanity -= 0.1f * Time.deltaTime;
         }
-        sanityBar.transform.localScale = new Vector3(4f, sanity/10, 1f);
+        sanityBar.transform.localScale = new Vector3(1f, sanity/40, 1f);
         sanityRange = sanity * range;
         sphere.SetSphereScale(sanityRange);
     }
