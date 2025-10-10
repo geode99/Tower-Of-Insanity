@@ -22,6 +22,8 @@ public class PlayerSanity : MonoBehaviour
             sanity -= 0.1f * Time.deltaTime;
         }
         sanityBar.transform.localScale = new Vector3(1f, sanity/40, 1f);
+        sanitySphereObject.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+
         sanityRange = sanity * range;
         sphere.SetSphereScale(sanityRange);
     }
