@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class UsePills : MonoBehaviour
@@ -30,7 +29,7 @@ public class UsePills : MonoBehaviour
         if (hotbar == null)
             return;
 
-        // Iterate all slots in the hotbar and use the first "Pills" found
+
         for (int i = 0; i < hotbar.transform.childCount; i++)
         {
             var slotTransform = hotbar.transform.GetChild(i);
@@ -44,16 +43,16 @@ public class UsePills : MonoBehaviour
             Item item = slot.CurrentItem.GetComponent<Item>();
             if (item != null && item.Name == "Pills")
             {
-                // Apply pill effect
+
                 playerSanity.sanity += 5f;
                 if (playerSanity.sanity > 40f)
                     playerSanity.sanity = 40f;
 
-                // Remove one pill from the slot
+
                 Destroy(slot.CurrentItem);
                 slot.CurrentItem = null;
 
-                // Only use one pill per keypress
+
                 break;
             }
         }
