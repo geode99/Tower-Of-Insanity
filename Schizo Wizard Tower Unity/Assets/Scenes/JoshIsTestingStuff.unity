@@ -840,6 +840,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wizard
       objectReference: {fileID: 0}
+    - target: {fileID: 320849464406660202, guid: 71143457315fc6b45806b91da922c81b, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 6912864418449541761, guid: 71143457315fc6b45806b91da922c81b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.141
