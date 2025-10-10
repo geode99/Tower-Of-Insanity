@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 0
-  Name: Pill
+  Name: Pills
 --- !u!212 &8899442618824980251
 SpriteRenderer:
   m_ObjectHideFlags: 0
