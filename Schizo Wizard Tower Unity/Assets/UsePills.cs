@@ -7,36 +7,57 @@ public class UsePills : MonoBehaviour
     public GameObject hotbar;
 
     private PlayerSanity playerSanity;
-    private hotbarController HotbarController;
+    private InventoryController InventoryController;
     private itemDictionary Itemdictionary;
+    private Item Item;
+
+    private void Start()
+    {
+        if (Player != null)
+            playerSanity = Player.GetComponent<PlayerSanity>();
+        if (hotbar != null)
+            InventoryController = hotbar.GetComponent<InventoryController>();
+        Itemdictionary = FindFirstObjectByType<itemDictionary>();
+    }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.H))
-        {
+        if (!Input.GetKeyDown(KeyCode.Q))
+            return;
+
+        if (playerSanity == null && Player != null)
             playerSanity = Player.GetComponent<PlayerSanity>();
-            HotbarController = hotbar.GetComponent<hotbarController>();
-            Itemdictionary = FindFirstObjectByType<itemDictionary>();
-            // Check if the first slot in the hotbar has an item
-            Slot slot = hotbar.transform.GetChild(0).GetComponent<Slot>();
-            if (slot.CurrentItem != null)
+        if (hotbar == null)
+            return;
+
+        // Iterate all slots in the hotbar and use the first "Pills" found
+        for (int i = 0; i < hotbar.transform.childCount; i++)
+        {
+            var slotTransform = hotbar.transform.GetChild(i);
+            if (slotTransform == null)
+                continue;
+
+            Slot slot = slotTransform.GetComponent<Slot>();
+            if (slot == null || slot.CurrentItem == null)
+                continue;
+
+            Item item = slot.CurrentItem.GetComponent<Item>();
+            if (item != null && item.Name == "Pills")
             {
-                Item item = slot.CurrentItem.GetComponent<Item>();
-                if (item.itemName == "Pills")
-                {
-                    // Use the pills to increase sanity
-                    playerSanity.sanity += 5f;
-                    if (playerSanity.sanity > 40f)
-                    {
-                        playerSanity.sanity = 40f; // Cap sanity at 100
-                    }
-                    // Remove the pills from the hotbar
-                    Destroy(slot.CurrentItem);
-                    slot.CurrentItem = null;
-                }
+                // Apply pill effect
+                playerSanity.sanity += 5f;
+                if (playerSanity.sanity > 40f)
+                    playerSanity.sanity = 40f;
+
+                // Remove one pill from the slot
+                Destroy(slot.CurrentItem);
+                slot.CurrentItem = null;
+
+                // Only use one pill per keypress
+                break;
             }
         }
     }
 }
 
-}
+
