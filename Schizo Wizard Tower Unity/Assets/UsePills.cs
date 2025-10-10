@@ -1,9 +1,6 @@
 using UnityEngine;
-<<<<<<< HEAD
 using UnityEngine.InputSystem;
-=======
 
->>>>>>> 3325c7320caf90ac012c7527b2f7d6487770cbcc
 public class UsePills : MonoBehaviour
 {
     public GameObject Player;
@@ -61,10 +58,6 @@ public class UsePills : MonoBehaviour
             }
         }
     }
-<<<<<<< HEAD
-}
-=======
+
 }
 
-
->>>>>>> 3325c7320caf90ac012c7527b2f7d6487770cbcc
