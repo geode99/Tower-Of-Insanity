@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 2134608922348064807}
   - component: {fileID: 6576243269440858898}
   - component: {fileID: 6868095871583825323}
+  - component: {fileID: -7627934891828665898}
   m_Layer: 0
   m_Name: Master Schizo Wizard
   m_TagString: Player
@@ -459,6 +460,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2, y: 2}
   m_EdgeRadius: 0
+--- !u!114 &-7627934891828665898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4338177736191431589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa99ad76f9ea3514a9a9495c5b56e7c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 4338177736191431589}
+  hotbar: {fileID: 0}
 --- !u!1 &8514610585242818432
 GameObject:
   m_ObjectHideFlags: 0
