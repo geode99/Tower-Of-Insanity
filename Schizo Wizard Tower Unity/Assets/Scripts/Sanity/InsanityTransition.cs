@@ -10,12 +10,14 @@ public class InsanityTransition : MonoBehaviour
         transform.position = disappear.transform.position;
     }
     private void OnTriggerEnter2D(Collider2D other){
-        if (other.gameObject.tag == "SanitySphere"){
+        if (other.gameObject.CompareTag("SanitySphere"))
+        {
             disappear.SetActive(false);
         }
     }
     private void OnTriggerExit2D(Collider2D other){
-        if (other.gameObject.tag == "SanitySphere"){
+        if (other.gameObject.CompareTag("SanitySphere"))
+        {
             disappear.SetActive(true);
         }
     }
