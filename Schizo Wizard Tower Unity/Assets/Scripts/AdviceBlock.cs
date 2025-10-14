@@ -10,6 +10,7 @@ public class AdviceBlock : MonoBehaviour
 
     private int index;
 
+    public GameObject contButton;
     public float wordSpeed;
     public bool playerIsClose;
     void Update()
@@ -25,6 +26,11 @@ public class AdviceBlock : MonoBehaviour
                 dialoguePanel.SetActive(true);
                 StartCoroutine(Typing());
             }
+        }
+
+        if(dialogueText.text == dialogue[index])
+        {
+            contButton.SetActive(true);
         }
     }
 
@@ -46,6 +52,9 @@ public class AdviceBlock : MonoBehaviour
 
     public void NextLine()
     {
+
+        contButton.SetActive(false);
+
         if(index < dialogue.Length - 1)
         {
             index++;
