@@ -1172,7 +1172,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2086444542576680499, guid: 921cb5542aa3b344f8b5a872b218eded, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2086444542576680499, guid: 921cb5542aa3b344f8b5a872b218eded, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1180,7 +1180,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2086444542576680499, guid: 921cb5542aa3b344f8b5a872b218eded, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2086444542576680499, guid: 921cb5542aa3b344f8b5a872b218eded, type: 3}
       propertyPath: m_LocalRotation.z
@@ -1192,7 +1192,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2086444542576680499, guid: 921cb5542aa3b344f8b5a872b218eded, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2086444542576680499, guid: 921cb5542aa3b344f8b5a872b218eded, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -1246,74 +1246,6 @@ PrefabInstance:
       propertyPath: dialoguePanel
       value: 
       objectReference: {fileID: 890039392}
-    - target: {fileID: 9185858111451940050, guid: 921cb5542aa3b344f8b5a872b218eded, type: 3}
-      propertyPath: dialogue.Array.size
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 9185858111451940050, guid: 921cb5542aa3b344f8b5a872b218eded, type: 3}
-      propertyPath: 'dialogue.Array.data[0]'
-      value: Hey Zie!!!
-      objectReference: {fileID: 0}
-    - target: {fileID: 9185858111451940050, guid: 921cb5542aa3b344f8b5a872b218eded, type: 3}
-      propertyPath: 'dialogue.Array.data[1]'
-      value: Huh?
-      objectReference: {fileID: 0}
-    - target: {fileID: 9185858111451940050, guid: 921cb5542aa3b344f8b5a872b218eded, type: 3}
-      propertyPath: 'dialogue.Array.data[2]'
-      value: What do you mean who's Zie?
-      objectReference: {fileID: 0}
-    - target: {fileID: 9185858111451940050, guid: 921cb5542aa3b344f8b5a872b218eded, type: 3}
-      propertyPath: 'dialogue.Array.data[3]'
-      value: Oh no...
-      objectReference: {fileID: 0}
-    - target: {fileID: 9185858111451940050, guid: 921cb5542aa3b344f8b5a872b218eded, type: 3}
-      propertyPath: 'dialogue.Array.data[4]'
-      value: Did you forget?
-      objectReference: {fileID: 0}
-    - target: {fileID: 9185858111451940050, guid: 921cb5542aa3b344f8b5a872b218eded, type: 3}
-      propertyPath: 'dialogue.Array.data[5]'
-      value: Shoot...
-      objectReference: {fileID: 0}
-    - target: {fileID: 9185858111451940050, guid: 921cb5542aa3b344f8b5a872b218eded, type: 3}
-      propertyPath: 'dialogue.Array.data[6]'
-      value: Your name is Zielek Sanitas
-      objectReference: {fileID: 0}
-    - target: {fileID: 9185858111451940050, guid: 921cb5542aa3b344f8b5a872b218eded, type: 3}
-      propertyPath: 'dialogue.Array.data[7]'
-      value: You're a powerful wizard
-      objectReference: {fileID: 0}
-    - target: {fileID: 9185858111451940050, guid: 921cb5542aa3b344f8b5a872b218eded, type: 3}
-      propertyPath: 'dialogue.Array.data[8]'
-      value: You've been in this tower about 80 years, after the king outlawed magic
-        you locked youreslf up here and cast a spell that makes everybody in a 50
-        mile radius of this tower lose their mind if they don't protect themselves
-        with magic.
-      objectReference: {fileID: 0}
-    - target: {fileID: 9185858111451940050, guid: 921cb5542aa3b344f8b5a872b218eded, type: 3}
-      propertyPath: 'dialogue.Array.data[9]'
-      value: by the way for being 123 you don't look a day past 25
-      objectReference: {fileID: 0}
-    - target: {fileID: 9185858111451940050, guid: 921cb5542aa3b344f8b5a872b218eded, type: 3}
-      propertyPath: 'dialogue.Array.data[10]'
-      value: anyways, maybe all you need to get your memory back is some fresh air
-      objectReference: {fileID: 0}
-    - target: {fileID: 9185858111451940050, guid: 921cb5542aa3b344f8b5a872b218eded, type: 3}
-      propertyPath: 'dialogue.Array.data[11]'
-      value: Sadly this tower doesnt really have windows to open...
-      objectReference: {fileID: 0}
-    - target: {fileID: 9185858111451940050, guid: 921cb5542aa3b344f8b5a872b218eded, type: 3}
-      propertyPath: 'dialogue.Array.data[12]'
-      value: Grab those pills to the left and go down that staircase to the right
-      objectReference: {fileID: 0}
-    - target: {fileID: 9185858111451940050, guid: 921cb5542aa3b344f8b5a872b218eded, type: 3}
-      propertyPath: 'dialogue.Array.data[13]'
-      value: Maybe it's about time we leave this tower...
-      objectReference: {fileID: 0}
-    - target: {fileID: 9185858111451940050, guid: 921cb5542aa3b344f8b5a872b218eded, type: 3}
-      propertyPath: 'dialogue.Array.data[14]'
-      value: (Hit E to collect pills and Q to use them, you can open your inventory
-        with ESC to see how many you have left)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5459,7 +5391,6 @@ GameObject:
   - component: {fileID: 1514154879}
   - component: {fileID: 1514154878}
   - component: {fileID: 1514154877}
-  - component: {fileID: 1514154880}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -5524,7 +5455,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 8987634760465542311, guid: 39473ef6153ff064bb1885db4cbe869a, type: 3}
+  m_Sprite: {fileID: -3821777026937811026, guid: 11b767b3b3b08584ba35a247ac0e69b8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5543,59 +5474,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1514154876}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 22.47, y: -0.01, z: 0}
-  m_LocalScale: {x: 2, y: 3.0476, z: 1}
+  m_LocalRotation: {x: 1, y: 0, z: 0, w: 0}
+  m_LocalPosition: {x: 21.0168, y: -0.0197, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!61 &1514154880
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1514154876}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
 --- !u!1001 &1558334635
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8069,10 +7954,6 @@ PrefabInstance:
       propertyPath: hotbar
       value: 
       objectReference: {fileID: 1089001518}
-    - target: {fileID: 1645265978526520607, guid: 71143457315fc6b45806b91da922c81b, type: 3}
-      propertyPath: sanity
-      value: 20
-      objectReference: {fileID: 0}
     - target: {fileID: 1645265978526520607, guid: 71143457315fc6b45806b91da922c81b, type: 3}
       propertyPath: sanitySphereObject
       value: 
