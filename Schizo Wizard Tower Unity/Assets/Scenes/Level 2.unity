@@ -203,20 +203,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 17886834}
     - target: {fileID: 1645265978526520607, guid: 71143457315fc6b45806b91da922c81b, type: 3}
+      propertyPath: sanity
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1645265978526520607, guid: 71143457315fc6b45806b91da922c81b, type: 3}
       propertyPath: sanitySphereObject
       value: 
       objectReference: {fileID: 699057839}
     - target: {fileID: 4338177736191431589, guid: 71143457315fc6b45806b91da922c81b, type: 3}
       propertyPath: m_Name
       value: Master Schizo Wizard
-      objectReference: {fileID: 0}
-    - target: {fileID: 5397101330316647954, guid: 71143457315fc6b45806b91da922c81b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 7.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 5397101330316647954, guid: 71143457315fc6b45806b91da922c81b, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 8464688308238262939, guid: 71143457315fc6b45806b91da922c81b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7990,11 +7986,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1043041714944564968, guid: 5a7f8cdb612565b4abb2a0e36fc588e5, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -6.915883
+      value: -15.16
       objectReference: {fileID: 0}
     - target: {fileID: 1043041714944564968, guid: 5a7f8cdb612565b4abb2a0e36fc588e5, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -3.0797515
+      value: -8.54
       objectReference: {fileID: 0}
     - target: {fileID: 1043041714944564968, guid: 5a7f8cdb612565b4abb2a0e36fc588e5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
