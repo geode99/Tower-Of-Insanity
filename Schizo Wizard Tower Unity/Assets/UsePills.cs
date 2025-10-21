@@ -19,7 +19,7 @@ public class UsePills : MonoBehaviour
             InventoryController = hotbar.GetComponent<InventoryController>();
         Itemdictionary = FindFirstObjectByType<itemDictionary>();
     }
-
+    // getting a quick way to use pills from Inventory or hotbar
     private void Update()
     {
         if (!Input.GetKeyDown(KeyCode.Q))
