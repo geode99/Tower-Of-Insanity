@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: bf148a3c7067ef14a98719cb43e8db07
+guid: a79bfa6d9f454c34a9d60ed66d62a24a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4947516129881235288
-    second: pexels-umkreisel-app-957010_0
+      213: -4420781712680604251
+    second: outside_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pexels-umkreisel-app-957010_0
+      name: outside_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 6000
-        height: 3375
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 85f161205bb19a440800000000000000
-      internalID: 4947516129881235288
+      spriteID: 5ad2122647a36a2c0800000000000000
+      internalID: -4420781712680604251
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      pexels-umkreisel-app-957010_0: 4947516129881235288
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
