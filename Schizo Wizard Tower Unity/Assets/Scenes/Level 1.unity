@@ -1233,7 +1233,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9185858111451940050, guid: 921cb5542aa3b344f8b5a872b218eded, type: 3}
       propertyPath: 'dialogue.Array.data[12]'
-      value: Grab those pills to the left and go down that staircase to the right
+      value: Grab those pills to the left it is abraCadaderal and go down that staircase
+        to the right
       objectReference: {fileID: 0}
     - target: {fileID: 9185858111451940050, guid: 921cb5542aa3b344f8b5a872b218eded, type: 3}
       propertyPath: 'dialogue.Array.data[13]'
