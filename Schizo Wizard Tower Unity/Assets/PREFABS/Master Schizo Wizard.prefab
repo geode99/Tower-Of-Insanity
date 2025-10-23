@@ -213,7 +213,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sanity: 40
   sanityRange: 0
-  range: 0.25
+  range: 0.125
   sanitySphereObject: {fileID: 0}
   sanityBar: {fileID: 3603787531657416451}
 --- !u!212 &8004199377340452746
