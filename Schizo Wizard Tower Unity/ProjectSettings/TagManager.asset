@@ -6,6 +6,7 @@ TagManager:
   tags:
   - SanitySphere
   - Item
+  - Fake
   layers:
   - Default
   - TransparentFX

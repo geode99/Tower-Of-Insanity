@@ -1,9 +1,0 @@
-diff a/Schizo Wizard Tower Unity/Assets/Scenes/Level 2.unity b/Schizo Wizard Tower Unity/Assets/Scenes/Level 2.unity	(rejected hunks)
-@@ -2773,6 +2773,7 @@
-   m_Component:
-   - component: {fileID: 458980211}
-   - component: {fileID: 458980210}
-+  - component: {fileID: 458980212}
-   m_Layer: 0
-   m_Name: stairs going dpwner_0
-   m_TagString: Untagged
