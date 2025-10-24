@@ -7914,24 +7914,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1089001518}
     - target: {fileID: 1645265978526520607, guid: 71143457315fc6b45806b91da922c81b, type: 3}
-      propertyPath: sanity
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 1645265978526520607, guid: 71143457315fc6b45806b91da922c81b, type: 3}
       propertyPath: sanitySphereObject
       value: 
       objectReference: {fileID: 1251969422384574692}
     - target: {fileID: 4338177736191431589, guid: 71143457315fc6b45806b91da922c81b, type: 3}
       propertyPath: m_Name
       value: Master Schizo Wizard
-      objectReference: {fileID: 0}
-    - target: {fileID: 4543730272160801830, guid: 71143457315fc6b45806b91da922c81b, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5397101330316647954, guid: 71143457315fc6b45806b91da922c81b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 8.51
       objectReference: {fileID: 0}
     - target: {fileID: 8464688308238262939, guid: 71143457315fc6b45806b91da922c81b, type: 3}
       propertyPath: m_LocalPosition.x
