@@ -211,7 +211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6be541a34f3c95c4e940a1016b3ec4a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sanity: 20
+  sanity: 40
   sanityRange: 0
   range: 0.125
   sanitySphereObject: {fileID: 0}
@@ -458,8 +458,8 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.5, y: 1.5}
-  m_EdgeRadius: 0
+  m_Size: {x: 1, y: 1.5}
+  m_EdgeRadius: 0.12345679
 --- !u!114 &-7627934891828665898
 MonoBehaviour:
   m_ObjectHideFlags: 0
