@@ -15359,7 +15359,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialoguePanel: {fileID: 1040214983}
   dialogueText: {fileID: 254382722}
-  dialogue: []
+  dialogue:
+  - Key Collected
   contButton: {fileID: 641610951}
   wordSpeed: 0.02
 --- !u!1001 &1406087152
