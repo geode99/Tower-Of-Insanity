@@ -3743,28 +3743,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 741921365}
     - target: {fileID: 1645265978526520607, guid: 71143457315fc6b45806b91da922c81b, type: 3}
-      propertyPath: sanity
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 1645265978526520607, guid: 71143457315fc6b45806b91da922c81b, type: 3}
       propertyPath: sanitySphereObject
       value: 
       objectReference: {fileID: 570995773}
     - target: {fileID: 4338177736191431589, guid: 71143457315fc6b45806b91da922c81b, type: 3}
       propertyPath: m_Name
       value: Master Schizo Wizard
-      objectReference: {fileID: 0}
-    - target: {fileID: 6868095871583825323, guid: 71143457315fc6b45806b91da922c81b, type: 3}
-      propertyPath: m_Size.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6868095871583825323, guid: 71143457315fc6b45806b91da922c81b, type: 3}
-      propertyPath: m_Size.y
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6868095871583825323, guid: 71143457315fc6b45806b91da922c81b, type: 3}
-      propertyPath: m_EdgeRadius
-      value: 0.12345679
       objectReference: {fileID: 0}
     - target: {fileID: 8464688308238262939, guid: 71143457315fc6b45806b91da922c81b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17336,7 +17320,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f13318431db8d0345b4438082cd8b524, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Level 2
+  sceneToLoad: MainMenu
 --- !u!212 &1618930810
 SpriteRenderer:
   m_ObjectHideFlags: 0
