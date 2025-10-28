@@ -1,15 +1,17 @@
-using System;
+using System.Collections;
 using UnityEngine;
 
 public class PlayerItemCollector : MonoBehaviour
 {
     private InventoryController inventoryController;
     private Collider2D currentCollision;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         inventoryController = FindFirstObjectByType<InventoryController>();
     }
+
     private void Update()
     {
         if (currentCollision != null && Input.GetKeyDown(KeyCode.E))
@@ -21,13 +23,24 @@ public class PlayerItemCollector : MonoBehaviour
                 bool itemAdded = inventoryController.AddItem(currentCollision.gameObject);
                 if (itemAdded)
                 {
-                    Destroy(currentCollision.gameObject);
+                    // Capture the GameObject and clear the current collision to avoid further processing.
+                    GameObject toDestroy = currentCollision.gameObject;
+                    currentCollision = null;
+                    StartCoroutine(DestroyAfterDelay(toDestroy, 1f));
                 }
             }
         }
     }
 
-  
+    private IEnumerator DestroyAfterDelay(GameObject go, float delay)
+    {
+        yield return new WaitForSecondsRealtime(delay);
+        if (go != null)
+        {
+            Destroy(go);
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Item"))

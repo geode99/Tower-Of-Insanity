@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 2683221616369225285}
   - component: {fileID: 8899442618824980251}
   - component: {fileID: 6506014765244831903}
+  - component: {fileID: 261668748014786861}
   m_Layer: 5
   m_Name: Pills
   m_TagString: Item
@@ -209,3 +210,22 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 1
+--- !u!114 &261668748014786861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4738497367429574712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09556912f014e6f419d0fcdce934e69b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialoguePanel: {fileID: 0}
+  dialogueText: {fileID: 0}
+  dialogue:
+  - picked up pills
+  contButton: {fileID: 0}
+  wordSpeed: 0.02
+  displayDuration: 0.5
