@@ -3,29 +3,29 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private float _moveSpeed = 5f;
-
-    private Vector2 _movement;
-
-    private Rigidbody2D _rb;
-    private Animator _animator;
-
-    private void Awake()
-    {
-        _rb = GetComponent<Rigidbody2D>();
-        _animator = GetComponent<Animator>();
+    public float speed = 5f;
+    public Transform movePoint;
+    public LayerMask whatStopsMovement;
+    void Start(){
+        movePoint.parent = null;
     }
+    private void Update() {
 
-    private void Update()
-    {
-        _rb.linearVelocity = _movement * _moveSpeed;
-    }
+        transform.position = Vector3.MoveTowards(transform.position, movePoint.position, speed * Time.deltaTime);
 
-    public void move(InputAction.CallbackContext ctx)
-    { 
-        _movement = ctx.ReadValue<Vector2>();
+        if(Vector3.Distance(transform.position, movePoint.position) <= 0.05f){
 
-        _animator.SetFloat("x", _movement.x);
-        _animator.SetFloat("y", _movement.y);
+            if(Mathf.Abs(Input.GetAxisRaw("Horizontal")) == 1f){
+                if(!Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, whatStopsMovement)){
+                    movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f);
+                }
+            }
+            if(Mathf.Abs(Input.GetAxisRaw("Vertical")) == 1f){
+                if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f), .2f, whatStopsMovement))
+                {
+                    movePoint.position += new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f);
+                }
+            }
+        }
     }
 }
