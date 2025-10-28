@@ -6,6 +6,9 @@ public class PlayerItemCollector : MonoBehaviour
     private InventoryController inventoryController;
     private Collider2D currentCollision;
 
+    // If false, pressing E will be ignored until re-enabled.
+    private bool canPickup = true;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -14,7 +17,7 @@ public class PlayerItemCollector : MonoBehaviour
 
     private void Update()
     {
-        if (currentCollision != null && Input.GetKeyDown(KeyCode.E))
+        if (currentCollision != null && canPickup && Input.GetKeyDown(KeyCode.E))
         {
             print("Pressed E to collect the item");
 
@@ -23,6 +26,10 @@ public class PlayerItemCollector : MonoBehaviour
                 bool itemAdded = inventoryController.AddItem(currentCollision.gameObject);
                 if (itemAdded)
                 {
+                    // Disable further pickups for 1 second.
+                    canPickup = false;
+                    StartCoroutine(EnablePickupAfterDelay(1f));
+
                     // Capture the GameObject and clear the current collision to avoid further processing.
                     GameObject toDestroy = currentCollision.gameObject;
                     currentCollision = null;
@@ -39,6 +46,12 @@ public class PlayerItemCollector : MonoBehaviour
         {
             Destroy(go);
         }
+    }
+
+    private IEnumerator EnablePickupAfterDelay(float delay)
+    {
+        yield return new WaitForSecondsRealtime(delay);
+        canPickup = true;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

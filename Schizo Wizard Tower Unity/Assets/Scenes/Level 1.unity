@@ -1082,7 +1082,7 @@ GameObject:
   - component: {fileID: 727655903}
   - component: {fileID: 727655902}
   m_Layer: 0
-  m_Name: Grid
+  m_Name: LevelGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6267,6 +6267,14 @@ PrefabInstance:
       propertyPath: dialoguePanel
       value: 
       objectReference: {fileID: 890039392}
+    - target: {fileID: 261668748014786861, guid: 5a7f8cdb612565b4abb2a0e36fc588e5, type: 3}
+      propertyPath: displayDuration
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 261668748014786861, guid: 5a7f8cdb612565b4abb2a0e36fc588e5, type: 3}
+      propertyPath: 'dialogue.Array.data[0]'
+      value: picked up AbraCadaderal
+      objectReference: {fileID: 0}
     - target: {fileID: 1043041714944564968, guid: 5a7f8cdb612565b4abb2a0e36fc588e5, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
