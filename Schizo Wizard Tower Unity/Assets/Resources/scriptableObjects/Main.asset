@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a20e7e2f595ca7a429bbfdcc67c5edb6, type: 3}
   m_Name: Main
   m_EditorClassIdentifier: 
-  discription: 
-  playerPosition: {x: 0, y: 0}
+  saveData:
+    playerPosition: {x: 6, y: 7}
+    sanity: 40
+    inventoryItemIDs: 0000000000000000
