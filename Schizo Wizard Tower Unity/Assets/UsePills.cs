@@ -45,9 +45,9 @@ public class UsePills : MonoBehaviour
             if (item != null && item.Name == "Pills")
             {
 
-                playerSanity.sanity += 5f;
-                if (playerSanity.sanity > 40f)
-                    playerSanity.sanity = 40f;
+                SaveDataController.Current.sanity += 5f;
+                if (SaveDataController.Current.sanity > 40f)
+                    SaveDataController.Current.sanity = 40f;
 
 
                 Destroy(slot.CurrentItem);
