@@ -49,7 +49,7 @@ public class UsePills : MonoBehaviour
                 if (SaveDataController.Current.sanity > 40f)
                     SaveDataController.Current.sanity = 40f;
 
-
+                
                 Destroy(slot.CurrentItem);
                 slot.CurrentItem = null;
 
