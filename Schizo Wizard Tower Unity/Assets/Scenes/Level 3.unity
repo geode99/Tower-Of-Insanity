@@ -589,6 +589,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dialogue
       objectReference: {fileID: 0}
+    - target: {fileID: 6951441277025551476, guid: 2df7bc3e66ffc464db7811a460c66425, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8223805874770589831, guid: 2df7bc3e66ffc464db7811a460c66425, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -787,6 +791,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 261668748014786861, guid: 5a7f8cdb612565b4abb2a0e36fc588e5, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 67687062}
+    - target: {fileID: 261668748014786861, guid: 5a7f8cdb612565b4abb2a0e36fc588e5, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 1253336054}
     - target: {fileID: 1043041714944564968, guid: 5a7f8cdb612565b4abb2a0e36fc588e5, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1190,6 +1202,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FakeWallSegment (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5015474275543958626, guid: c88f31dfb0e0a6c429af6a25181e765c, type: 3}
+      propertyPath: grid
+      value: 
+      objectReference: {fileID: 1961579961}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1638,6 +1654,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FakeWallSegment (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 5015474275543958626, guid: c88f31dfb0e0a6c429af6a25181e765c, type: 3}
+      propertyPath: grid
+      value: 
+      objectReference: {fileID: 1961579961}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2645,6 +2665,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 261668748014786861, guid: 5a7f8cdb612565b4abb2a0e36fc588e5, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 67687062}
+    - target: {fileID: 261668748014786861, guid: 5a7f8cdb612565b4abb2a0e36fc588e5, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 1253336054}
+    - target: {fileID: 261668748014786861, guid: 5a7f8cdb612565b4abb2a0e36fc588e5, type: 3}
+      propertyPath: displayDuration
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1043041714944564968, guid: 5a7f8cdb612565b4abb2a0e36fc588e5, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3855,6 +3887,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RealWallSegment (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5922178240948339043, guid: 6cf2ff57e5e5c8f4ea49501aefc1a02f, type: 3}
+      propertyPath: grid
+      value: 
+      objectReference: {fileID: 1961579961}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8532,6 +8568,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 261668748014786861, guid: 5a7f8cdb612565b4abb2a0e36fc588e5, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 67687062}
+    - target: {fileID: 261668748014786861, guid: 5a7f8cdb612565b4abb2a0e36fc588e5, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 1253336054}
     - target: {fileID: 1043041714944564968, guid: 5a7f8cdb612565b4abb2a0e36fc588e5, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -8787,6 +8831,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FakeWallSegment (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5015474275543958626, guid: c88f31dfb0e0a6c429af6a25181e765c, type: 3}
+      propertyPath: grid
+      value: 
+      objectReference: {fileID: 1961579961}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8844,6 +8892,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FakeWallSegment (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 5015474275543958626, guid: c88f31dfb0e0a6c429af6a25181e765c, type: 3}
+      propertyPath: grid
+      value: 
+      objectReference: {fileID: 1961579961}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9250,6 +9302,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FakeWallSegment (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 5015474275543958626, guid: c88f31dfb0e0a6c429af6a25181e765c, type: 3}
+      propertyPath: grid
+      value: 
+      objectReference: {fileID: 1961579961}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9396,6 +9452,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FakeWallSegment (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5015474275543958626, guid: c88f31dfb0e0a6c429af6a25181e765c, type: 3}
+      propertyPath: grid
+      value: 
+      objectReference: {fileID: 1961579961}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9465,6 +9525,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5015474275543958626, guid: c88f31dfb0e0a6c429af6a25181e765c, type: 3}
+      propertyPath: grid
+      value: 
+      objectReference: {fileID: 1961579961}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9752,6 +9816,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 261668748014786861, guid: 5a7f8cdb612565b4abb2a0e36fc588e5, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 67687062}
+    - target: {fileID: 261668748014786861, guid: 5a7f8cdb612565b4abb2a0e36fc588e5, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 1253336054}
     - target: {fileID: 1043041714944564968, guid: 5a7f8cdb612565b4abb2a0e36fc588e5, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -15920,6 +15992,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FakeWallSegment (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5015474275543958626, guid: c88f31dfb0e0a6c429af6a25181e765c, type: 3}
+      propertyPath: grid
+      value: 
+      objectReference: {fileID: 1961579961}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16893,6 +16969,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 261668748014786861, guid: 5a7f8cdb612565b4abb2a0e36fc588e5, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 67687062}
+    - target: {fileID: 261668748014786861, guid: 5a7f8cdb612565b4abb2a0e36fc588e5, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 1253336054}
     - target: {fileID: 1043041714944564968, guid: 5a7f8cdb612565b4abb2a0e36fc588e5, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -17235,6 +17319,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -1.029
       objectReference: {fileID: 0}
+    - target: {fileID: 5015474275543958626, guid: c88f31dfb0e0a6c429af6a25181e765c, type: 3}
+      propertyPath: grid
+      value: 
+      objectReference: {fileID: 1961579961}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -17630,6 +17718,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RealWallSegment
       objectReference: {fileID: 0}
+    - target: {fileID: 5922178240948339043, guid: 6cf2ff57e5e5c8f4ea49501aefc1a02f, type: 3}
+      propertyPath: grid
+      value: 
+      objectReference: {fileID: 1961579961}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32031,6 +32123,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FakeWallSegment (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5015474275543958626, guid: c88f31dfb0e0a6c429af6a25181e765c, type: 3}
+      propertyPath: grid
+      value: 
+      objectReference: {fileID: 1961579961}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32299,7 +32395,7 @@ GameObject:
   - component: {fileID: 1961579962}
   - component: {fileID: 1961579961}
   m_Layer: 0
-  m_Name: Grid
+  m_Name: LevelGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
