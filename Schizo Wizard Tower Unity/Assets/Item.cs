@@ -17,6 +17,10 @@ public class Item : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        else
+        {
+
+        }
         // if item is in inventory and is in the world get rid of world version, do not parent world version or it will break inventory logic
 
         if (FindObjectsByType<Item>(FindObjectsSortMode.None).Any(item => item.gameObject != gameObject && item.ID == ID))

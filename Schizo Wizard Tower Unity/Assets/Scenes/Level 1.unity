@@ -1188,6 +1188,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9da0a1ec701333142a105b37e3ed5f82, type: 3}
+--- !u!114 &802380617 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8894848829544727410, guid: 9da0a1ec701333142a105b37e3ed5f82, type: 3}
+  m_PrefabInstance: {fileID: 802380616}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f61510ce064a01459bd76d74adee46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &834730556
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5300,6 +5311,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1251665765}
   m_CullTransparentMesh: 1
+--- !u!95 &1255437191 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6576243269440858898, guid: 71143457315fc6b45806b91da922c81b, type: 3}
+  m_PrefabInstance: {fileID: 7557313613764329312}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1315884200
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5571,7 +5587,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: Level 2
-  saveDataController: {fileID: 0}
+  saveDataController: {fileID: 802380617}
 --- !u!212 &1514154878
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6396,7 +6412,7 @@ GameObject:
   - component: {fileID: 1822439334}
   - component: {fileID: 1822439333}
   - component: {fileID: 1822439332}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8185,6 +8201,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Master Schizo Wizard
       objectReference: {fileID: 0}
+    - target: {fileID: 4338904273234796970, guid: 71143457315fc6b45806b91da922c81b, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1255437191}
     - target: {fileID: 8464688308238262939, guid: 71143457315fc6b45806b91da922c81b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

@@ -19,5 +19,6 @@ public class SceneChanger : MonoBehaviour
     public void OnCollisionEnter(Collision collision)
     {
         saveDataController.SaveGame();
+        saveDataController.LoadGame();
     }
 }
