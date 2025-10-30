@@ -1356,6 +1356,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8464688308238262939, guid: 71143457315fc6b45806b91da922c81b, type: 3}
   m_PrefabInstance: {fileID: 1727192226}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &429104266 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6576243269440858898, guid: 71143457315fc6b45806b91da922c81b, type: 3}
+  m_PrefabInstance: {fileID: 1727192226}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &432746306
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16147,6 +16152,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Master Schizo Wizard
       objectReference: {fileID: 0}
+    - target: {fileID: 4338904273234796970, guid: 71143457315fc6b45806b91da922c81b, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 429104266}
     - target: {fileID: 4338904273234796970, guid: 71143457315fc6b45806b91da922c81b, type: 3}
       propertyPath: movePoint
       value: 
