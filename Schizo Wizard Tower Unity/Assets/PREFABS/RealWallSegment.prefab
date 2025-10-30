@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1002270384496104915}
   - component: {fileID: 2603483007137572894}
   - component: {fileID: 5922178240948339043}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -159,7 +159,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 24482424206326008}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: RealWallSegment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -195,7 +195,7 @@ GameObject:
   - component: {fileID: 7972557232423895631}
   - component: {fileID: 248657369332974713}
   - component: {fileID: 6393938337227214150}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BrickWallAppear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
