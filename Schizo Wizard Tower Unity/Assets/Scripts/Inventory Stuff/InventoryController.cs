@@ -48,4 +48,5 @@ public class InventoryController : MonoBehaviour
         Debug.Log("Inventory Full!");
         return false; // Inventory full
     }
+    
 }
