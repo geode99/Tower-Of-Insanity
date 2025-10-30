@@ -1351,16 +1351,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6cf2ff57e5e5c8f4ea49501aefc1a02f, type: 3}
---- !u!4 &429104263 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8464688308238262939, guid: 71143457315fc6b45806b91da922c81b, type: 3}
-  m_PrefabInstance: {fileID: 1727192226}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &429104266 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 6576243269440858898, guid: 71143457315fc6b45806b91da922c81b, type: 3}
-  m_PrefabInstance: {fileID: 1727192226}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &432746306
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14888,37 +14878,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6cf2ff57e5e5c8f4ea49501aefc1a02f, type: 3}
---- !u!1 &1289710563
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1289710564}
-  m_Layer: 0
-  m_Name: MovePoint
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1289710564
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1289710563}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 429104263}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1292927480
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16152,34 +16111,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Master Schizo Wizard
       objectReference: {fileID: 0}
-    - target: {fileID: 4338904273234796970, guid: 71143457315fc6b45806b91da922c81b, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 429104266}
-    - target: {fileID: 4338904273234796970, guid: 71143457315fc6b45806b91da922c81b, type: 3}
-      propertyPath: movePoint
-      value: 
-      objectReference: {fileID: 1289710564}
-    - target: {fileID: 4338904273234796970, guid: 71143457315fc6b45806b91da922c81b, type: 3}
-      propertyPath: whatStopsMovement.m_Bits
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 5397101330316647954, guid: 71143457315fc6b45806b91da922c81b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 8.53
-      objectReference: {fileID: 0}
-    - target: {fileID: 6868095871583825323, guid: 71143457315fc6b45806b91da922c81b, type: 3}
-      propertyPath: m_Size.x
-      value: 0.627651
-      objectReference: {fileID: 0}
-    - target: {fileID: 6868095871583825323, guid: 71143457315fc6b45806b91da922c81b, type: 3}
-      propertyPath: m_Offset.x
-      value: 0.011064753
-      objectReference: {fileID: 0}
-    - target: {fileID: 6868095871583825323, guid: 71143457315fc6b45806b91da922c81b, type: 3}
-      propertyPath: m_EdgeRadius
-      value: 0.15
-      objectReference: {fileID: 0}
     - target: {fileID: 8464688308238262939, guid: 71143457315fc6b45806b91da922c81b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.5
@@ -16220,13 +16151,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 2134608922348064807, guid: 71143457315fc6b45806b91da922c81b, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 8464688308238262939, guid: 71143457315fc6b45806b91da922c81b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1289710564}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71143457315fc6b45806b91da922c81b, type: 3}
 --- !u!1001 &1747910383
