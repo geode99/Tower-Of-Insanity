@@ -3656,6 +3656,10 @@ PrefabInstance:
       propertyPath: hotbar
       value: 
       objectReference: {fileID: 741921365}
+    - target: {fileID: 87225727090388113, guid: 71143457315fc6b45806b91da922c81b, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 691381813}
     - target: {fileID: 1645265978526520607, guid: 71143457315fc6b45806b91da922c81b, type: 3}
       propertyPath: sanitySphereObject
       value: 
@@ -3709,6 +3713,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71143457315fc6b45806b91da922c81b, type: 3}
+--- !u!1 &691381813 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4338177736191431589, guid: 71143457315fc6b45806b91da922c81b, type: 3}
+  m_PrefabInstance: {fileID: 691381812}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &739831393
 PrefabInstance:
   m_ObjectHideFlags: 0

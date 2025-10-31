@@ -6,11 +6,16 @@ public class Key : MonoBehaviour
    public enum KeyType
    {
         Red,
+        Orange,
+        Yellow,
         Green,
         Blue,
         Purple,
-        Yellow,
-        Pink
+        Black,
+        White,
+        Pink,
+        platnium,
+        bronze
    }
    
    public KeyType GetKeyType()

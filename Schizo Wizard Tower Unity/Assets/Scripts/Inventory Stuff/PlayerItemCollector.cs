@@ -5,6 +5,7 @@ public class PlayerItemCollector : MonoBehaviour
 {
     private InventoryController inventoryController;
     private Collider2D currentCollision;
+    public GameObject Player;
 
     // If false, pressing E will be ignored until re-enabled.
     private bool canPickup = true;
@@ -13,6 +14,7 @@ public class PlayerItemCollector : MonoBehaviour
     void Start()
     {
         inventoryController = FindFirstObjectByType<InventoryController>();
+        Player.GetComponent<PlayerMovement>().CanMove = true;
     }
 
     private void Update()
@@ -34,6 +36,8 @@ public class PlayerItemCollector : MonoBehaviour
                     GameObject toDestroy = currentCollision.gameObject;
                     currentCollision = null;
                     StartCoroutine(DestroyAfterDelay(toDestroy, 1f));
+                    Player.GetComponent<PlayerMovement>().CanMove = false;
+                    StartCoroutine(EnableMovmentAfterDelay(1f));
                 }
             }
         }
@@ -47,7 +51,11 @@ public class PlayerItemCollector : MonoBehaviour
             Destroy(go);
         }
     }
-
+    private IEnumerator EnableMovmentAfterDelay(float delay)
+    {
+        yield return new WaitForSecondsRealtime(delay);
+        Player.GetComponent<PlayerMovement>().CanMove = true;
+    }
     private IEnumerator EnablePickupAfterDelay(float delay)
     {
         yield return new WaitForSecondsRealtime(delay);
