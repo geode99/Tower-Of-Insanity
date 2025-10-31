@@ -15806,6 +15806,10 @@ PrefabInstance:
       value: drawer Variant (79)
       objectReference: {fileID: 0}
     - target: {fileID: 9171727054174885816, guid: 4f4cc3a67c40ca647ba44eeb6beaa7ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171727054174885816, guid: 4f4cc3a67c40ca647ba44eeb6beaa7ef, type: 3}
       propertyPath: m_LocalPosition.z
       value: -2
       objectReference: {fileID: 0}
