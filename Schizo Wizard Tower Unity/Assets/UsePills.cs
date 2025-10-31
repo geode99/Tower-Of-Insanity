@@ -52,7 +52,7 @@ public class UsePills : MonoBehaviour
                 
                 Destroy(slot.CurrentItem);
                 slot.CurrentItem = null;
-
+                SaveDataController.Current.inventoryItemIDs.Remove(item.ID);
 
                 break;
             }
