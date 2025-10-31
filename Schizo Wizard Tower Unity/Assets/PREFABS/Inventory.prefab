@@ -180,6 +180,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemPrefabs:
   - {fileID: 2683221616369225285, guid: 5a7f8cdb612565b4abb2a0e36fc588e5, type: 3}
+  - {fileID: 5339656631920711100, guid: e154e245377fcec43aa91547a3e438bd, type: 3}
+  - {fileID: 7764850805995220437, guid: 3b96337401ceb0347809352f382922a4, type: 3}
+  - {fileID: 3448231956560799358, guid: 42c023e7bf5c4ff4cb78603de97a9119, type: 3}
+  - {fileID: 1986225484993883166, guid: 58e1804c11c72a64986638c2900ce873, type: 3}
+  - {fileID: 1353864936122761954, guid: 234433e553bb731458ef0252bc78bd12, type: 3}
+  - {fileID: 6790551046856832904, guid: e99fe104c130c53418b4609bdcc22ae6, type: 3}
+  - {fileID: 858864957878123742, guid: 5f4c29448cfab4b448d7820c94613edf, type: 3}
 --- !u!1 &827578239929370551
 GameObject:
   m_ObjectHideFlags: 0
@@ -830,7 +837,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8582279457145132727
 RectTransform:
   m_ObjectHideFlags: 0
