@@ -5311,11 +5311,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1251665765}
   m_CullTransparentMesh: 1
---- !u!95 &1255437191 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 6576243269440858898, guid: 71143457315fc6b45806b91da922c81b, type: 3}
-  m_PrefabInstance: {fileID: 7557313613764329312}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1315884200
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5632,7 +5627,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 8987634760465542311, guid: 364566179754721448db06979a7a9925, type: 3}
+  m_Sprite: {fileID: 8987634760465542311, guid: 955858f25bfde8e4a9a598cc1df172b4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8201,10 +8196,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Master Schizo Wizard
       objectReference: {fileID: 0}
-    - target: {fileID: 4338904273234796970, guid: 71143457315fc6b45806b91da922c81b, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 1255437191}
     - target: {fileID: 8464688308238262939, guid: 71143457315fc6b45806b91da922c81b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
