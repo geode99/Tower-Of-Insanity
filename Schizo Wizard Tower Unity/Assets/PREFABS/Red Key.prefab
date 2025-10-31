@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: -3471646756810414844}
   - component: {fileID: 207519691285656189}
   - component: {fileID: 3270321486928983431}
+  - component: {fileID: 4125042516926024265}
   m_Layer: 5
   m_Name: Red Key
   m_TagString: Item
@@ -32,7 +33,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3520503331614046814}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.1, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -118,6 +119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 1
+  Name: 
 --- !u!212 &-3471646756810414844
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -232,3 +234,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   keyType: 0
+--- !u!114 &4125042516926024265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3520503331614046814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b41dac7798fe57f4bb98e794c7168a64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialoguePanel: {fileID: 0}
+  dialogueText: {fileID: 0}
+  dialogue:
+  - Red Key Collected
+  contButton: {fileID: 0}
+  wordSpeed: 0.02

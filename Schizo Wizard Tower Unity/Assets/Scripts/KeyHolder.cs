@@ -15,6 +15,7 @@ public class KeyHolder : MonoBehaviour
     public void AddKey(Key.KeyType keyType)
     {
         Debug.Log("Added Key: " + keyType);
+       
         keyList.Add(keyType);
     }
 
@@ -33,8 +34,18 @@ public class KeyHolder : MonoBehaviour
         Key key = collider.GetComponent<Key>();
         if (key != null)
         {
-            AddKey(key.GetKeyType());
-            Destroy(key.gameObject);
+            // If the key GameObject is tagged "Fake", do not collect it, but still destroy it.
+            if (collider.gameObject.CompareTag("Fake"))
+            {
+                Debug.Log("Fake key detected - not collected, will be destroyed: " + key.GetKeyType());
+                StartCoroutine(DestroyAfterRealtime(key.gameObject, 1f));
+            }
+            else
+            {
+                AddKey(key.GetKeyType());
+                // Start a coroutine to wait in real time, then destroy the key object.
+                StartCoroutine(DestroyAfterRealtime(key.gameObject, 1f));
+            }
         }
 
         KeyDoor keyDoor = collider.GetComponent<KeyDoor>();
@@ -46,6 +57,15 @@ public class KeyHolder : MonoBehaviour
                 RemoveKey(keyDoor.GetKeyType());
                 keyDoor.OpenDoor();
            }
+        }
+    }
+
+    private IEnumerator DestroyAfterRealtime(GameObject obj, float delay)
+    {
+        yield return new WaitForSecondsRealtime(delay);
+        if (obj != null)
+        {
+            Destroy(obj);
         }
     }
 }

@@ -6,11 +6,12 @@ TagManager:
   tags:
   - SanitySphere
   - Item
+  - Fake
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - StopMovement
   - Water
   - UI
   - 
