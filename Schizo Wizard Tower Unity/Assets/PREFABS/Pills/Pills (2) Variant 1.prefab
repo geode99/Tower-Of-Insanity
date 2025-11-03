@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pills (2) Variant 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5339656631920711100, guid: e154e245377fcec43aa91547a3e438bd, type: 3}
+      propertyPath: ID
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 7016417296743154961, guid: e154e245377fcec43aa91547a3e438bd, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

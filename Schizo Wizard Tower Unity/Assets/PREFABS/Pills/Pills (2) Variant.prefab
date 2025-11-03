@@ -88,6 +88,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2683221616369225285, guid: 5a7f8cdb612565b4abb2a0e36fc588e5, type: 3}
+      propertyPath: ID
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4738497367429574712, guid: 5a7f8cdb612565b4abb2a0e36fc588e5, type: 3}
       propertyPath: m_Name
       value: Pills (2) Variant
