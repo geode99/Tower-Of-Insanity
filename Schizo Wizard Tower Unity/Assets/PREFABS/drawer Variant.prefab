@@ -10,19 +10,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 13241511275029246, guid: c88f31dfb0e0a6c429af6a25181e765c, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 0.8
+      value: 0.96
       objectReference: {fileID: 0}
     - target: {fileID: 13241511275029246, guid: c88f31dfb0e0a6c429af6a25181e765c, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 0.807
+      value: 0.96
       objectReference: {fileID: 0}
     - target: {fileID: 24482424206326008, guid: c88f31dfb0e0a6c429af6a25181e765c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -21.53
+      value: -15.125
       objectReference: {fileID: 0}
     - target: {fileID: 24482424206326008, guid: c88f31dfb0e0a6c429af6a25181e765c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.54
+      value: -8.409448
       objectReference: {fileID: 0}
     - target: {fileID: 24482424206326008, guid: c88f31dfb0e0a6c429af6a25181e765c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -59,7 +59,11 @@ PrefabInstance:
     - target: {fileID: 1002270384496104915, guid: c88f31dfb0e0a6c429af6a25181e765c, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 2214931160222651639, guid: c73b0efa9c22225488318a768798b8b0, type: 3}
+      objectReference: {fileID: -5845404441153194828, guid: 85e139fa6fed08d4d98e2d6b7187878e, type: 3}
+    - target: {fileID: 1002270384496104915, guid: c88f31dfb0e0a6c429af6a25181e765c, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3803401085599044265, guid: c88f31dfb0e0a6c429af6a25181e765c, type: 3}
       propertyPath: m_Name
       value: drawer Variant
