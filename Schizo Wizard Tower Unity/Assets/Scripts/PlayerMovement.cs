@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     public float previousX;
     public float previousY;
     public Animator animator;
+    public bool CanMove = true;
     void Start(){
         movePoint.parent = null;
     }
@@ -16,7 +17,7 @@ public class PlayerMovement : MonoBehaviour
 
         transform.position = Vector3.MoveTowards(transform.position, movePoint.position, speed * Time.deltaTime);
 
-        if(Vector3.Distance(transform.position, movePoint.position) <= 0f){
+        if(Vector3.Distance(transform.position, movePoint.position) <= 0f && CanMove == true){
             if(Mathf.Abs(Input.GetAxisRaw("Horizontal")) == 1f){
                 if(!Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .25f, whatStopsMovement)){
                     previousX = movePoint.position.x;
@@ -27,7 +28,7 @@ public class PlayerMovement : MonoBehaviour
                 animator.SetFloat("y", 0);
             }
             else if(Mathf.Abs(Input.GetAxisRaw("Vertical")) == 1f){
-                if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f), .2f, whatStopsMovement)){
+                if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f), .25f, whatStopsMovement)){
                     previousX = movePoint.position.x;
                     previousY = movePoint.position.y;
                     movePoint.position += new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f);
