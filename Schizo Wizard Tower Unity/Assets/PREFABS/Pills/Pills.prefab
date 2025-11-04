@@ -33,7 +33,7 @@ RectTransform:
   m_GameObject: {fileID: 4738497367429574712}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0ab5dd9891754d41b1e39272c7566e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ID: 0
+  ID: 30
   Name: Pills
 --- !u!212 &8899442618824980251
 SpriteRenderer:
@@ -225,7 +225,7 @@ MonoBehaviour:
   dialoguePanel: {fileID: 0}
   dialogueText: {fileID: 0}
   dialogue:
-  - picked up pills
+  - picked up AbraCadaderal
   contButton: {fileID: 0}
   wordSpeed: 0.02
-  displayDuration: 0.5
+  displayDuration: 0.7
