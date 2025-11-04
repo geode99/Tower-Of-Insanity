@@ -1,5 +1,5 @@
-using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerSanity : MonoBehaviour
 {
@@ -9,7 +9,7 @@ public class PlayerSanity : MonoBehaviour
 
     // Assign this in the Inspector
     public GameObject sanitySphereObject;
-    public GameObject sanityBar;
+    public Image sanityBar;
     private SanitySphere sphere;
 
     void Start(){
@@ -20,8 +20,9 @@ public class PlayerSanity : MonoBehaviour
         if(SaveDataController.Current.sanity > 0){
             SaveDataController.Current.sanity -= 0.1f * Time.deltaTime;
         }
-        sanityBar.transform.localScale = new Vector3(1f, SaveDataController.Current.sanity / 40, 1f);
         sanitySphereObject.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+
+        sanityBar.fillAmount = SaveDataController.Current.sanity / 40f;
 
         sanityRange = SaveDataController.Current.sanity * range;
         sphere.SetSphereScale(sanityRange);
