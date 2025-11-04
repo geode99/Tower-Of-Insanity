@@ -32,10 +32,10 @@ public class KeyHolder : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collider)
     {
         Key key = collider.GetComponent<Key>();
-        if (key != null)
+        if (key != null && Input.GetKeyDown(KeyCode.E))
         {
             // If the key GameObject is tagged "Fake", do not collect it, but still destroy it.
-            if (collider.gameObject.CompareTag("Fake"))
+            if (collider.gameObject.CompareTag("Fake") )
             {
                 Debug.Log("Fake key detected - not collected, will be destroyed: " + key.GetKeyType());
                 StartCoroutine(DestroyAfterRealtime(key.gameObject, 1f));
