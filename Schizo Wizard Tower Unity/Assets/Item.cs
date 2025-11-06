@@ -6,6 +6,8 @@ public class Item : MonoBehaviour
     public int ID;
     public string Name;
 
+    public Key.KeyType Key { get; internal set; }
+
     public virtual void UseItem()
     {
         Debug.Log("Using item: " + gameObject.name);
@@ -13,7 +15,8 @@ public class Item : MonoBehaviour
 
     private void Start()
     {
-        if( SaveDataController.Current.inventoryItemIDs.Contains(ID) && transform.parent == null)
+        System.Func<Key.KeyType> Key = GetComponent<Key>().GetKeyType;
+        if ( SaveDataController.Current.inventoryItemIDs.Contains(ID) && transform.parent == null)
         {
             Destroy(gameObject);
         }

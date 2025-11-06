@@ -9,6 +9,7 @@ public class PlayerItemCollector : MonoBehaviour
 
     // If false, pressing E will be ignored until re-enabled.
     private bool canPickup = true;
+    
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -19,7 +20,7 @@ public class PlayerItemCollector : MonoBehaviour
 
     private void Update()
     {
-        if (currentCollision != null && canPickup && Input.GetKeyDown(KeyCode.E))
+        if (currentCollision != null && canPickup && Input.GetKeyDown(KeyCode.E)|| currentCollision != null && currentCollision.CompareTag("Keys"))
         {
             print("Pressed E to collect the item");
 
@@ -64,7 +65,7 @@ public class PlayerItemCollector : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Item"))
+        if (collision.CompareTag("Item")|| (collision.CompareTag("Keys")))
         {
             currentCollision = collision;
             Debug.Log("Player entered the item trigger area. Press 'E' to collect the item.");
@@ -72,7 +73,7 @@ public class PlayerItemCollector : MonoBehaviour
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.CompareTag("Item"))
+        if (collision.CompareTag("Item") || (collision.CompareTag("Keys")))
         {
             if (currentCollision == collision)
             {
