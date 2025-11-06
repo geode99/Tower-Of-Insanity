@@ -45,11 +45,14 @@ TagManager:
   - name: Floor
     uniqueID: 613822517
     locked: 0
-  - name: Default
-    uniqueID: 0
+  - name: Pills
+    uniqueID: 2340066465
     locked: 0
   - name: Wall
     uniqueID: 800463895
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0
   m_RenderingLayers:
   - Default
