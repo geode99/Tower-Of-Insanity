@@ -14,6 +14,7 @@ public class KeyDoor : MonoBehaviour
     {
         // Deactivate the door visually/physically
         gameObject.SetActive(false);
+        Destroy(this.gameObject);
 
         // Safely remove the key of this type from the saved inventory
         

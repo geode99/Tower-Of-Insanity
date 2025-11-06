@@ -59,6 +59,7 @@ public class KeyHolder : MonoBehaviour
            {
                 //Currently holding Key to open this door
                 RemoveKey(keyDoor.GetKeyType());
+                Destroy(keyDoor.gameObject);
                 keyDoor.OpenDoor();
            }
         }
